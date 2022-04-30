@@ -1,0 +1,78 @@
+:root{
+    -bg-col: #f6f8ff;
+    /* --font: Calibri, sans-serif; */
+
+}
+
+body, html{
+    margin: 0;
+    padding: 0;
+    background: var(--bg-col);
+    font-family: var(--font);
+    /* height: 100%; */
+}
+
+#main-container{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    /* min-height: 100vh; */
+    margin-top: 10vh;
+    /* gap: 20px; */
+    flex-flow: column wrap;
+}
+
+.main-header{
+    font-size: 4em;
+    font-weight: 400;
+    margin-bottom: 20vh;
+    justify-self: flex-start;
+}
+
+.input-form{
+    display: flex;
+    flex-flow: column wrap;
+    gap: 20px;
+    /* min-width: 100px; */
+}
+
+.input-form > *{
+    min-width: 200px;
+    min-height: 35px;
+
+    width: 20vw;
+}
+
+button{
+    border-radius: 5px;
+    background: white;
+    /* font-size: 1.01em; */
+    border: none;
+    box-shadow: 0 4px 10px darkgray;
+    transition: scale .4s ease-in-out;
+}
+
+button:hover{
+    transform: scale(1.02);
+}
+
+.forgot-pass{
+    font-size: 1.1em;
+    text-align: right;
+    color: rgb(149, 149, 246);
+}
+
+.forgot-pass > p{
+    transition: opacity .4s ease;
+    cursor: pointer;
+}
+
+.forgot-pass > p:hover{
+    opacity: 75%;
+}
+
+#pass-num{
+    /* text-align: center; */
+    border-radius: 5px;
+    padding: 2px;
+}

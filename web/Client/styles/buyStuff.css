@@ -1,0 +1,20 @@
+#main-container{
+    margin-top: 15vh;
+    min-width: 300px;
+    /* max-width: 50vw; */
+}
+
+.ride-form{
+    min-width: 250px;
+
+    max-width: 50vw;
+}
+
+.card-size{
+    width: 25vw; 
+    min-width: 250px;
+}
+
+.more-info{
+    text-decoration: none;
+}

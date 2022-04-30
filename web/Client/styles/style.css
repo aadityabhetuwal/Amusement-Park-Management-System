@@ -1,0 +1,18 @@
+#main-container{
+    margin-top: 15vh;
+    gap: 15vh;
+}
+
+.input-form > *{
+    min-width: 150px;
+    width: 20vw;
+    padding: 10px;
+}
+
+.forgot-pass{
+    text-align: right;
+}
+
+.forgot-pass > p{
+    cursor: pointer;
+}

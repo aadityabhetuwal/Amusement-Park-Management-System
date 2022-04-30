@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <!-- CSS only -->
+    <script src="./scripts/jquery.min.js"></script>
+    <script src="./scripts/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="./styles/bootstrap.min.css">
+
+    <style>
+        #main-container{
+            /* margin-top: 25vh; */
+            padding-top: 15vh;
+            background : linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url("images/background.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center center;
+            width: 100vw;
+            height: 100vh;
+            position: relative;
+            box-sizing: border-box;
+            margin-top : 0 !important;
+            
+            color : #fff;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark position-fixed w-100 top-0 start-0">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand m-3">XYZ Amusement Park</a>
+
+            <div class="w-100">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+                    data-bs-target="#navbarContent" aria-controls="navbarContent">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>  
+
+            <div class="collapse navbar-collapse d-flex text-right" id="navbarContent">
+
+                <ul class="navbar-nav ml-auto gap-2 m-3">
+                    <li class="nav-item active">
+                        <a href="adminManage.jsp" class="nav-link">Mange records</a>
+                    </li>
+
+                    <li class="nav-item active">
+                        <a href="adminPlayground.jsp" class="nav-link">Playground</a>
+                    </li>
+
+                    <li class="nav-item active">
+                        <a href="adminLogout.jsp" class="nav-link">Logout</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="d-flex align-items-center flex-column justify-content-center">
+        <div class="display-6">
+            About Us
+        </div>
+        
+    </div>
+    
+</body>
+</html>
